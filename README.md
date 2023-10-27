@@ -94,3 +94,11 @@ haproxy -f /path/to/haproxy.cfg –c
 - Проверим TCP- и HTTP-балансировку, в случае с TCP-балансировкой указывать хост в заголовках curl необязательно
 - Рассмотрим цепочку nginx -> haproxy
 - Такая связка полезна, так как HAProxy может проверять здоровье серверов, а Nginx нет
+
+![dr](https://github.com/joos-mon-keep/disaster-recovery/blob/main/dr.png)
+
+![av](https://github.com/joos-mon-keep/disaster-recovery/blob/main/av.png)
+
+![b](https://github.com/joos-mon-keep/disaster-recovery/blob/main/b.png)
+
+![kl](https://github.com/joos-mon-keep/disaster-recovery/blob/main/kl.png)
